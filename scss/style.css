@@ -1,11 +1,49 @@
+/** @format */
 h1 {
   font-family: "Inconsolata";
   font-size: 24px;
-  margin: 3.5rem 0 0 6rem;
+  margin: 3.5rem 0 5rem 6rem;
 }
 
 img {
   width: 45%;
-  margin: 4rem 0 0 7rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text-container {
+  font-family: "Space Mono";
+  color: #333333;
+  width: 35%;
+  margin-left: 5rem;
+}
+
+h2 {
+  font-size: 64px;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 24px;
+  color: #4f4f4f;
+  width: 70%;
+  margin: 3rem 0 3.2rem 0;
+}
+
+button {
+  color: #ffffff;
+  padding: 1.5rem;
+  background-color: #333333;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */

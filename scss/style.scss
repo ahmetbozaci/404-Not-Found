@@ -1,16 +1,52 @@
+/** @format */
+
 $color1: #4f4f4f;
 $color2: #333333;
-$color3: #FFFFFF;
+$color3: #ffffff;
 $primary-font: 'Space Mono';
-$font2: 'Inconsolata'; 
+$font2: 'Inconsolata';
 
 h1 {
   font-family: $font2;
   font-size: 24px;
-  margin: 3.5rem 0 0 6rem;
+  margin: 3.5rem 0 5rem 6rem;
 }
 
 img {
   width: 45%;
-  margin: 4rem 0 0 7rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.main {
+  justify-content: center;
+}
+
+.text-container {
+  font-family: $primary-font;
+  color: $color2;
+  width: 35%;
+  margin-left: 5rem;
+}
+
+h2 {
+  font-size: 64px;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 24px;
+  color: $color1;
+  width: 70%;
+  margin: 3rem 0 3.2rem 0;
+  
+}
+
+button {
+  color:$color3;
+  padding: 1.5rem;
+  background-color:$color2;
+  font-size: 14px;
 }
