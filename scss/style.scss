@@ -6,10 +6,17 @@ $color3: #ffffff;
 $primary-font: 'Space Mono';
 $font2: 'Inconsolata';
 
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
 h1 {
   font-family: $font2;
   font-size: 24px;
-  margin: 3.5rem 0 5rem 6rem;
+  margin: 0rem 0 0rem 6rem;
 }
 
 img {
@@ -22,12 +29,12 @@ img {
 
 .main {
   justify-content: center;
+  align-items: center;
 }
 
 .text-container {
   font-family: $primary-font;
   color: $color2;
-  width: 35%;
   margin-left: 5rem;
 }
 
@@ -40,7 +47,7 @@ p {
   font-size: 24px;
   color: $color1;
   width: 70%;
-  margin: 3rem 0 3.2rem 0;
+  margin: 3rem 0 3rem 0;
   
 }
 
@@ -49,4 +56,26 @@ button {
   padding: 1.5rem;
   background-color:$color2;
   font-size: 14px;
+}
+
+footer {
+  color: gray;
+  font-size: 16px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 1.5rem;
+
+  
+  a {
+    text-decoration: none;
+    font-family: $primary-font;
+    color: $color1;
+  };
+
+  .github-link {
+    text-decoration: underline;
+    font-weight: bold;
+  }
 }
