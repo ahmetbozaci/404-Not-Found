@@ -3,6 +3,7 @@
 $color1: #4f4f4f;
 $color2: #333333;
 $color3: #ffffff;
+$color4: #696b6a;
 $primary-font: 'Space Mono';
 $secondary-font: 'Inconsolata';
 
@@ -15,8 +16,7 @@ html,body {
 h1 {
   font-family: $secondary-font;
   font-size: 24px;
-   margin: 30px 0 0rem 50px;
-  font-weight: bold;
+  margin: 30px 0 0rem 50px;
 }
 
 img {
@@ -25,6 +25,10 @@ img {
 
 .flex {
   display: flex;
+}
+
+.fw-bold {
+  font-weight: bold;
 }
 
 .main {
@@ -44,7 +48,6 @@ img {
 h2 {
   font-size: 45px;
   margin-bottom: 0;
-  font-weight: bold;
   line-height: 4rem;
 }
 
@@ -61,11 +64,14 @@ button {
   background-color:$color2;
   font-size: 14px;
   margin-top: 20px;
+  border: 0;
+  cursor: pointer;
+  font-family: $primary-font;
 }
 
 footer {
-  color: gray;
-  font-size: 16px;
+  color: $color4;
+  font-size: 18px;
   position: fixed;
   text-align: center;
   width: 100%;
@@ -76,11 +82,10 @@ footer {
   a {
     text-decoration: none;
     font-family: $primary-font;
-    color: $color1;
+    color: $color4;
   };
 
   .github-link {
     text-decoration: underline;
-    font-weight: bold;
   }
 }

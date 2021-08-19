@@ -52,7 +52,6 @@ h1 {
   font-family: "Inconsolata";
   font-size: 24px;
   margin: 30px 0 0rem 50px;
-  font-weight: bold;
 }
 
 img {
@@ -63,6 +62,10 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.fw-bold {
+  font-weight: bold;
 }
 
 .main {
@@ -85,7 +88,6 @@ img {
 h2 {
   font-size: 45px;
   margin-bottom: 0;
-  font-weight: bold;
   line-height: 4rem;
 }
 
@@ -102,11 +104,14 @@ button {
   background-color: #333333;
   font-size: 14px;
   margin-top: 20px;
+  border: 0;
+  cursor: pointer;
+  font-family: "Space Mono";
 }
 
 footer {
-  color: gray;
-  font-size: 16px;
+  color: #696b6a;
+  font-size: 18px;
   position: fixed;
   text-align: center;
   width: 100%;
@@ -117,11 +122,10 @@ footer {
 footer a {
   text-decoration: none;
   font-family: "Space Mono";
-  color: #4f4f4f;
+  color: #696b6a;
 }
 
 footer .github-link {
   text-decoration: underline;
-  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
