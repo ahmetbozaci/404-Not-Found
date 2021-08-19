@@ -43,19 +43,20 @@ table {
   border-spacing: 0;
 }
 
-body {
-  width: 95%;
+html, body {
+  width: 100%;
+  height: 90vh;
 }
 
 h1 {
   font-family: "Inconsolata";
   font-size: 24px;
-  margin: 35px;
+  margin: 30px 0 0rem 50px;
+  font-weight: bold;
 }
 
 img {
-  width: 350px;
-  height: 350px;
+  width: 400px;
 }
 
 .flex {
@@ -65,23 +66,34 @@ img {
 }
 
 .main {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 90%;
 }
 
 .text-container {
   font-family: "Space Mono";
   color: #333333;
+  margin-left: 7rem;
 }
 
 h2 {
   font-size: 45px;
   margin-bottom: 0;
+  font-weight: bold;
+  line-height: 4rem;
 }
 
 p {
   font-size: 24px;
   color: #4f4f4f;
+  margin: 2rem 0 2rem 0;
+  line-height: 2.2rem;
 }
 
 button {
