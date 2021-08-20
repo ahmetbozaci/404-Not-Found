@@ -43,9 +43,8 @@ table {
   border-spacing: 0;
 }
 
-html, body {
-  width: 100%;
-  height: 90vh;
+html {
+  font-size: 1.5vw;
 }
 
 h1 {
@@ -55,7 +54,7 @@ h1 {
 }
 
 img {
-  width: 400px;
+  width: 30%;
 }
 
 .flex {
@@ -75,34 +74,35 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 90%;
-  height: 90%;
+  min-height: 90vh;
+  min-width: 90vh;
+  width: 100%;
 }
 
 .text-container {
   font-family: "Space Mono";
   color: #333333;
   margin-left: 7rem;
+  width: 30%;
 }
 
 h2 {
-  font-size: 45px;
-  margin-bottom: 0;
-  line-height: 4rem;
+  font-size: 2rem;
+  line-height: 2.2rem;
 }
 
 p {
-  font-size: 24px;
+  font-size: 1rem;
+  line-height: 1.4rem;
   color: #4f4f4f;
   margin: 2rem 0 2rem 0;
-  line-height: 2.2rem;
 }
 
 button {
   color: #ffffff;
   padding: 1.2rem 1.5rem;
   background-color: #333333;
-  font-size: 14px;
+  font-size: 0.8rem;
   margin-top: 20px;
   border: 0;
   cursor: pointer;
@@ -112,7 +112,6 @@ button {
 footer {
   color: #696b6a;
   font-size: 18px;
-  position: fixed;
   text-align: center;
   width: 100%;
   bottom: 0;
@@ -127,5 +126,14 @@ footer a {
 
 footer .github-link {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
