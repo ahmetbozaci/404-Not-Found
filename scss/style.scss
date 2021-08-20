@@ -8,7 +8,7 @@ $primary-font: 'Space Mono';
 $secondary-font: 'Inconsolata';
 
 html {
-  font-size: 1.5vw;
+  font-size: calc(5px + 1vw);
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 }
 
 img {
- width: 30%;
+ width: 50%;
 
 }
 
@@ -33,26 +33,23 @@ img {
 .main {
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
-  min-width: 90vh;
-  width: 100%;
+  min-height: 80vh;
 }
 
 .text-container {
   font-family: $primary-font;
   color: $color2;
   margin-left: 7rem;
-  width: 30%;
 }
 
 h2 {
   font-size: 2rem;
-  line-height: 2.2rem;
+  line-height: 3rem;
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.4rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
   color: $color1;
   margin: 2rem 0 2rem 0;
 }
@@ -61,7 +58,7 @@ button {
   color:$color3;
   padding: 1.2rem 1.5rem;
   background-color:$color2;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-top: 20px;
   border: 0;
   cursor: pointer;
@@ -91,7 +88,10 @@ footer {
 
   .main {
     flex-direction: column;
-
+    margin: auto 0;
   }
 
+  .text-container {
+    margin-left:0;
+  }
 }
