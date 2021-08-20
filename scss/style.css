@@ -54,7 +54,7 @@ h1 {
 }
 
 img {
-  width: 50%;
+  width: 29rem;
 }
 
 .flex {
@@ -108,11 +108,10 @@ button {
 
 footer {
   color: #696b6a;
-  font-size: 18px;
+  font-size: 1rem;
   text-align: center;
-  width: 100%;
   bottom: 0;
-  margin-bottom: 1.5rem;
+  margin-top: 10px;
 }
 
 footer a {
