@@ -48,6 +48,7 @@ table {
 
 html {
   font-size: calc(5px + 1vw);
+  height: 100vh;
 }
 
 h1 {
@@ -78,8 +79,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   min-height: 80vh;
-  margin: 0 12rem;
-  margin-bottom: 60px;
 }
 
 .text-container {
@@ -117,6 +116,9 @@ footer {
   font-size: 1rem;
   font-family: "Montserrat";
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -137,11 +139,8 @@ footer .github-link {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .text-container {
-    margin-left: 0;
-  }
-  footer {
-    margin-bottom: 0;
+  img {
+    width: 25rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
