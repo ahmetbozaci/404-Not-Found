@@ -53,7 +53,7 @@ html {
 
 h1 {
   font-family: "Inconsolata";
-  font-size: 24px;
+  font-size: 30px;
   margin: 30px 0 0rem 50px;
 }
 
@@ -88,7 +88,7 @@ img {
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   line-height: 4.8rem;
   width: 29rem;
 }
@@ -105,7 +105,7 @@ button {
   color: #ffffff;
   padding: 1.2rem 1.5rem;
   background-color: #333333;
-  font-size: 0.8rem;
+  font-size: 1rem;
   border: 0;
   cursor: pointer;
   font-family: "Space Mono";
@@ -118,7 +118,7 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0.3rem;
   text-align: center;
 }
 
@@ -139,7 +139,13 @@ footer .github-link {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .text-container {
+    margin: 1rem auto;
+  }
   img {
+    width: 25rem;
+  }
+  p {
     width: 25rem;
   }
 }
